@@ -18,7 +18,10 @@
     "extends": "development",
     "ios": {
       "simulator": true
-    }
+    },
+    "env": {
+        "NPM_CONFIG_FORCE": "true"
+      }
   }
   },
   
